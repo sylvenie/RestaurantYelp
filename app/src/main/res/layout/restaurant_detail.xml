@@ -1,0 +1,31 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/restaurant_address"
+        style="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textIsSelectable="false"
+        tools:context="com.accenture.restaurantyelp.restaurantyelp.RestaurantDetailFragment" />
+
+    <ImageView
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:padding="16dp"
+        android:id="@+id/restaurant_image" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/restaurant_review"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textIsSelectable="false"
+        tools:context="com.accenture.restaurantyelp.restaurantyelp.RestaurantDetailFragment" />
+</LinearLayout>
